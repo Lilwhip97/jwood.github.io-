@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{scroll-behavior:smooth /*basic smooth scrolling */}
+
+body {
+    background-image: url('jwood.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: min; /* Make sure the body takes full height */
+    font-family: Arial, sans-serif; /* Set a default font for the body */
+    color: white; /* Set default text color to white */
+}
+
+/* Header styles */
+header {
+    position: relative;
+    z-index: 1; /* Ensure header is above the background */
+    background-color: rgba(19, 38, 216, 0.338); /* Optional: semi-transparent background for readability */
+    padding: 20px; /* Optional padding */
+}
+
+h1 {
+    color: rgb(247, 247, 253); /* Change the color of the heading */
+    text-align: center; /* Center the text */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    text-align: center; /* Center the navigation */
+}
+
+nav ul li {
+    display: inline; /* Display items in a row */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(255, 255, 255); /* Change link color */
+}
+
+/* Main content styles */
+main {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+    padding: 20px; /* Add some padding to main content */
+}
+
+section {
+    margin: 20px 0; /* Space between sections */
+    padding: 20px; /* Add padding to sections */
+    
+
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center the footer text */
+    margin-top: 20px; /* Space above footer */
+    position: relative;
+    z-index: 1; /* Ensure footer is above the background */
+    color: white;
+
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: auto; /* Center the form */
+}
+
+input, textarea {
+    margin-bottom: 10px; /* Space between form elements */
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+button {
+    padding: 10px; /* Padding for button */
+    background-color: rgb(248, 246, 245); /* Button background color */
+    color: black; /* Button text color for better visibility */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 90%); /* Lighter background on hover */
+}
