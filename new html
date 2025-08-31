@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jwood's Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="Desktop/portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jwood, a passionate web developer and designer.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>While I'm currently building my portfolio, I plan to work on various projects including:</p>
+            <ul>
+                <li>A personal blog to share my web development journey.</li>
+                <li>A small business website for local clients.</li>
+                <li>A web application to manage tasks and goals.</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>T-shirt/Mug Printing</li>
+                <li>Copywriting</li>
+                <li>Proofreading</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <!-- ✅ Added phone numbers here -->
+            <p>📞 Call me: 
+                <a href="tel:+277732286329">+27 773 228 6329</a> / 
+                <a href="tel:+27684582879">+27 68 458 2879</a>
+            </p>
+
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jwood. All rights reserved.</p>
+        <!-- ✅ Added phone numbers also in footer -->
+        <p>📞 <a href="tel:+277732286329">+27 773 228 6329</a> | 
+        <a href="tel:+27684582879">+27 68 458 2879</a></p>
+    </footer>
+</body>
+</html>
