@@ -46,7 +46,7 @@
     <section id="services">
       <h2>Services</h2>
       <div class="cards">
-        <div class="card" data-description="I create professional, ATS-optimized CVs that help clients get noticed by employers.">CV Writing</div>
+        <div class="card" data-description="I create professional, ATS-optimized CV's that help clients get noticed by employers.">CV Writing</div>
         <div class="card" data-description="Web Development services: custom, responsive websites tailored to your needs.">Web Development</div>
         <div class="card" data-description="Graphic Design: logos, social media graphics, and digital artwork.">Graphic Design</div>
         <div class="card" data-description="Custom T-shirt and mug printing with fast delivery.">T-shirt/Mug Printing</div>
